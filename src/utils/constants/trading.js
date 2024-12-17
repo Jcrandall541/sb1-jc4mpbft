@@ -1,0 +1,21 @@
+export const TRADING_CONSTANTS = {
+  EXECUTION_STRATEGIES: {
+    SANDWICH: 'sandwich',
+    BACKRUN: 'backrun',
+    FRONTRUN: 'frontrun',
+    NORMAL: 'normal'
+  },
+  
+  DEFAULT_CONFIG: {
+    MAX_BUNDLE_SIZE: 3,
+    MAX_PATH_DEPTH: 3,
+    MIN_PROFIT_THRESHOLD: 0.002,
+    GAS_PRICE_MULTIPLIER: 1.2
+  },
+  
+  INTERVALS: {
+    METRICS_UPDATE: 1000,
+    POSITION_CHECK: 1000,
+    DAILY_RESET: 86400000
+  }
+};

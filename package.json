@@ -1,0 +1,24 @@
+{
+  "name": "elite-trading-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@project-serum/serum": "^0.13.65",
+    "@solana/web3.js": "^1.87.1",
+    "bs58": "^5.0.0",
+    "eventemitter3": "^5.0.1",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
+  }
+}
